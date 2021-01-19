@@ -15,7 +15,7 @@ struct LandmarkRow: View {
             landmark.image
                 .resizable()
                 .frame(width: 30, height: 30)
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            Text(landmark.name)
             Spacer()
         }
     }
